@@ -1,0 +1,114 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    
+}
+
+.max_container {
+    max-width: 1324px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header_icons_container {
+    padding: 0rem 2rem;
+    width: 100%;
+    min-height: 4rem;
+    display: grid;
+    background-color: #47cfac;
+    font-size: 4rem;
+}
+
+.icons {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.redes_icons {
+    font-size: 4rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+
+.nav_logo_container {
+    background-color: white;
+}
+
+.icon_logo {
+    margin-left: 2rem;
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color:#47cfac;
+}
+
+.title_logo {
+    font-size: 3rem;
+    color: black;
+}
+
+.profile_link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+.img1_container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 62rem;
+    text-align: center;
+    background-image: url(./font/PagPrincipal.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.img1_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    color: beige;
+}
+
+footer {
+    font-size: 2rem;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}

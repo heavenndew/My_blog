@@ -1,0 +1,151 @@
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;  
+}
+
+.max_container {
+    max-width: 1324px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header_icons_container {
+    padding: 0rem 2rem;
+    width: 100%;
+    min-height: 4rem;
+    display: grid;
+    background-color: #47cfac;
+    font-size: 4rem;
+}
+
+.icons {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.redes_icons {
+    font-size: 4rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+}
+
+.nav_logo_container {
+    background-color: white;
+    width: 50%;
+}
+
+.icon_logo {
+    margin-left: 2rem;
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color:#47cfac;
+}
+
+.title_logo {
+    font-size: 3rem;
+    color: black;
+}
+
+.profile_link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+.primer_blog {
+    background-color: #E6E9ED;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.blog1_container {
+    padding: 2rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3_profile {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 5%;
+}
+
+.description_blog1 {
+    width: 60%;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_blog {
+    font-weight: bold;
+}
+
+.title_blogs {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    border-bottom: #E6E9ED 1px solid;
+}
+
+
+.blogs_ultimos {
+    display: grid;
+    grid-template-columns: 33% auto auto;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.blog_ultimo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_gris {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    max-width: 38rem;
+    min-width: 28rem;
+}
