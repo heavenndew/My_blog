@@ -79,3 +79,34 @@ nav {
     align-items: center;
     width: 50%;
 }
+
+.container_comollegue {
+    padding: 2rem;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.img_comollegue {
+    width: 75%;
+    border-radius: 5%;
+    justify-items: center;
+    padding: 2rem;
+}
+
+
+
+.line_green {
+    background-color: #47cfac;
+    min-height: 4rem;
+}
+
+footer {
+    font-size: 2rem;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
