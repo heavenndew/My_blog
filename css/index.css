@@ -1,3 +1,5 @@
+/* Estilos Mobile */
+
 * {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -28,11 +30,11 @@ header {
 }
 
 .icons {
-    width: 20rem;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    justify-self: end;
+    justify-content: center;
+    gap: 3rem;
 }
 
 a {
@@ -59,14 +61,14 @@ nav {
 
 .icon_logo {
     margin-left: 2rem;
-    font-size: 5rem;
+    font-size: 3rem;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold; 
     color:#47cfac;
 }
 
 .title_logo {
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: black;
 }
 
@@ -93,28 +95,31 @@ main {
     text-align: center;
     background-image: url(./font/PagPrincipal.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    background-position: center;  
 }
 
 .img1_center {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     color: beige;
 }
 
 .el_chisme {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     font-size: 3rem;
     padding: 1rem;
     opacity: value;
-    border-radius: 10%;
+    border-radius: 1rem;
     border: none;
+    background-color: #47cfac;
+    max-width: 280px;
 }
 
 .line_green {
@@ -123,9 +128,48 @@ main {
 }
 
 footer {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
-    height: 30px;
+    height: 3rem;
     display: flex;
     justify-content: center;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px){
+ 
+    header {
+    border: red 1px solid;
+ } 
+
+ .icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.icon_logo {
+    margin-left: 2rem;
+    font-size: 5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color:#47cfac;
+}
+
+.title_logo {
+    font-size: 3rem;
+    color: black;
+}
+
+.img1_center {
+    font-size: 5rem;
+}
+
+footer {
+    font-size: 2rem;
+}
+
+
 }
