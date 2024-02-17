@@ -1,5 +1,6 @@
 * {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -80,6 +81,12 @@ nav {
     width: 50%;
 }
 
+.title_comollegue {
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
 .container_comollegue {
     padding: 2rem;
     width: 100%;
@@ -116,9 +123,9 @@ footer {
 /* DESKTOP */
 @media screen and (min-width: 768px){
  
-    header {
+    /* header {
     border: red 1px solid;
- } 
+ }  */
 
  .icons {
     width: 20rem;
@@ -142,8 +149,8 @@ footer {
 }
 
 .img_comollegue {
-    width: 75%;
-    border-radius: 5%;
+    width: 38%;
+    border-radius: 10%;
     justify-items: center;
     padding: 2rem;
 }
